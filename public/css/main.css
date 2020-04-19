@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
+::-webkit-scrollbar {
+	display: none;
+}
+
 *,
 *:after,
 *:before {
@@ -111,7 +115,8 @@ body {
 	list-style: none;
 	padding: 8px 16px;
 	overflow-y: hidden;
-	overflow-x: auto;
+	overflow-x: scroll;
+	width: 100%;
 	display: flex;
 	justify-content: flex-start;
 	align-content: center;
@@ -145,7 +150,7 @@ body {
 
 .stories__item img {
 	position: relative;
-	width: 100%;
+	width: auto;
 	height: 100%;
 	padding: 0;
 	border: .18rem solid #fff;

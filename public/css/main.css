@@ -39,7 +39,7 @@ body {
 	margin: 0 auto;
 }
 
-.main--header {
+.main-header {
 	z-index: 10;
 	width: 100%;
 	position: fixed;
@@ -47,24 +47,24 @@ body {
 	border-bottom: 1px solid #dbdbdb;
 }
 
-.main--header .container {
+.main-header .container {
 	height: 52px;
 	padding: 4px 12px;
 	max-width: 100%;
 }
 
-.main--header__instagram-icon {
+.main-header__instagram-icon {
 	height: 44px;
 	margin-right: auto;
 	display: flex;
 	align-items: center;
 }
 
-.main--header__instagram-icon i {
+.main-header__instagram-icon i {
 	font-size: 2rem;
 }
 
-.main--header__logo-brand {
+.main-header__logo-brand {
 	height: 32px;
 	width: 100%;
 	display: flex;
@@ -72,11 +72,11 @@ body {
 	justify-content: center;
 }
 
-.main--header__logo-brand img {
+.main-header__logo-brand img {
 	height: 100%;
 }
 
-.main--header__menu {
+.main-header__menu {
 	height: 36px;
 	display: flex;
 	justify-content: space-between;
@@ -84,34 +84,34 @@ body {
 	margin-left: auto;
 }
 
-.main--header__menu__item {
+.main-header__menu__item {
 	height: 100%;
 	font-size: 24px;
 }
 
-.main--header__menu__item+.main--header__menu__item {
+.main-header__menu__item+.main-header__menu__item {
 	margin-left: 15px;
 }
 
-.main--header__menu__item img {
+.main-header__menu__item img {
 	height: 100%;
 	width: auto;
 }
 
-.main--content {
+.main-content {
 	width: 100%;
 	height: 100%;
 	margin-top: 52px;
 	margin-bottom: 52px;
 }
 
-.main--content .container {
+.main-content .container {
 	align-items: flex-start;
 	justify-content: flex-start;
 	flex-direction: column;
 }
 
-.main--content__stories {
+.main-content__stories {
 	list-style: none;
 	padding: 8px 16px;
 	overflow-y: hidden;
@@ -157,7 +157,7 @@ body {
 	border-radius: 100%;
 }
 
-.main--content__feed {
+.main-content__feed {
 	width: 100%;
 	display: flex;
 	flex-direction: column;

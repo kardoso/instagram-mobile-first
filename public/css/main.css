@@ -112,7 +112,6 @@ body {
 }
 
 .main-content__stories {
-	list-style: none;
 	padding: 8px 16px;
 	overflow-y: hidden;
 	overflow-x: scroll;
@@ -303,7 +302,6 @@ body {
 }
 
 .footer__actions {
-	list-style: none;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
